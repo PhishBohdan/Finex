@@ -2,7 +2,455 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="952678a7-69df-4c18-816d-d4a33f0d9460" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/archive-jetpack-portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/3rd_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/Macbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/analytics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/bar_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/blog-imag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/blue_ques.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/cal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/contact_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/dark_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/dark_ques.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/digital_bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/footer_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/iPhone 6 Silver Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/iPhone 6 Silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/imac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/iwatch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/iwatch2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/land_mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/learn1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/learn1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/learn1-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/learn1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/logo_finex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/payment-method.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/placeholder-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/placeholder_wide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/point_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/ques.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/ques_mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/scroll_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/silver_learn_phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/sol_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/images/wh_logo_finex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/dev/flexslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/dev/parallax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/dev/smooth-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/flexslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/owl-carousel/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/parallax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/shapely-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/assets/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/attachment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely-builder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely-notify-system.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely-related-posts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/class-wp-bootstrap-navwalker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/custom-controls/class-shapely-logo-dimensions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/extras.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/jetpack.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/color-picker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/color-schemes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/customizer-navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/field-repeater.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/icon-picker.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/layouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/section-repeater-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/toggle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/controls/upsell.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/sections/pro-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/sections/recommended-actions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/scss/sections/section-doubled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/style-admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/style-admin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/data/gfonts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/data/icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-alignbottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-alignmiddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-aligntop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-boxedcenter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-boxedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-colfit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-colspaced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/epsilon-section-fullwidth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/ewf-icon-section-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/four-column.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/one-column.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/three-column.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/img/two-column.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-admin.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-customizer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-previewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/js/epsilon-framework-previewer.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/admin/admin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/admin/notices/notices.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/button-group.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/color-picker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/color-schemes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/customizer-navigation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/icon-picker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/image.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/layouts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/range-slider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater/repeater-addons.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater/repeater-row.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater/repeater-section-row.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater/repeater-section-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/repeater/repeater-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/section-repeater.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/text-editor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/controls/typography.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/customizer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/button-group.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/color-picker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/color-schemes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/customizer-navigation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/icon-picker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/image.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/layouts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/range-slider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/repeater.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/section-repeater.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/text-editor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/toggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/typography.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/controls/upsell.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/panels/regular.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/sections/recommended-actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/sections/section-doubled.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/extenders/sections/section-pro.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/sections/recommended-actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/customizer/sections/section-doubled.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/previewer/color-schemes/color-schemes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/previewer/partial-refresh/partial-refresh.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/previewer/previewer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/previewer/section-editor/section-editor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/previewer/typography/typography.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/epsilon-framework/utils/epsilon-ajax-request.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/fontawesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/minicolors/jquery.minicolors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/minicolors/jquery.minicolors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/minicolors/jquery.minicolors.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/minicolors/jquery.minicolors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/selectize/selectize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/selectize/selectize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/assets/vendors/selectize/selectize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/class-epsilon-autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/class-epsilon-framework.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/backend/class-epsilon-content-backup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/backend/class-epsilon-notifications.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/backend/class-epsilon-notify-system.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/class-epsilon-ajax-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/class-epsilon-customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/helpers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/helpers/class-epsilon-helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/helpers/class-epsilon-sanitizers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/class-epsilon-color-coded-categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/class-epsilon-color-scheme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/class-epsilon-page-generator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/class-epsilon-repeater-templates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/classes/output/class-epsilon-typography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-button-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-color-picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-color-scheme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-customizer-navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-icon-picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-layouts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-repeater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-section-repeater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-separator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-text-editor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-toggle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-typography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/controls/class-epsilon-control-upsell.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/panels/class-epsilon-panel-regular.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-doubled.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-pro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/sections/class-epsilon-section-recommended-actions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/customizer/settings/class-epsilon-setting-repeater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/class-epsilon-welcome-screen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/css/welcome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/data/demo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/img/colorlib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/js/welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/sections/getting-started.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/sections/recommended-actions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/sections/recommended-plugins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/welcome-screen/sections/support.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/socialnav.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/fr_FR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/fr_FR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/it_IT.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/it_IT.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/languages/shapely.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/layouts/content-sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/layouts/sidebar-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/full-width.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/no-sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/sidebar-left.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/sidebar-right.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-blog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-post-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/sidebar-footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/single-jetpack-portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-attachment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-blog-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-grid-small.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-grid-wide.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/custom-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/layouts/blog-grid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/layouts/blog-large-image-grid.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/layouts/blog-large-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/woocommerce.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/shapely/woocommerce/product-searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/icon-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/Genericons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/genericons/genericons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/color-scheme-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar-content-bottom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/biography.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,47 +461,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-learnMore3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore3.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/finex/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-              <folding>
-                <element signature="e#6#102#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="375" column="38" lean-forward="true" selection-start-line="375" selection-start-column="38" selection-end-line="375" selection-end-column="38" />
-              <folding>
-                <element signature="e#6#96#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-post-item.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-post-item.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom-content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/custom-content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-              <folding>
-                <element signature="e#6#137#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -88,6 +500,7 @@
       <find>shapely-next-prev</find>
       <find>shapely-content</find>
       <find>$dropcaps</find>
+      <find>short</find>
     </findStrings>
     <dirStrings>
       <dir>F:\wamp64\www\_Task\wordpress\wp-content\themes\shapely</dir>
@@ -126,6 +539,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-post-item.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shapely/template-parts/custom-content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/finex/style.css" />
       </list>
     </option>
   </component>
@@ -138,7 +552,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/wp-content/plugins/popup-maker/includes/pum-sdk/freemius/package.json" />
-      <path value="$PROJECT_DIR$/wp-content/themes/shapely/inc/libraries/epsilon-framework/package.json" />
+      <path value="$PROJECT_DIR$/wp-content/themes/finex/inc/libraries/epsilon-framework/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -179,7 +593,7 @@
               <item name="wordpress" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="shapely" type="462c0819:PsiDirectoryNode" />
+              <item name="finex" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,28 +633,28 @@
       <workItem from="1530604749270" duration="40587000" />
       <workItem from="1531307405253" duration="1170000" />
       <workItem from="1531311158873" duration="15225000" />
-      <workItem from="1531388254545" duration="41809000" />
+      <workItem from="1531388254545" duration="42345000" />
+      <workItem from="1531502059567" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109392000" />
+    <option name="totallyTimeSpent" value="110038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18230277" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32943678" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18070363" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32897604" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -249,6 +663,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,10 +673,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/template-parts/content.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/functions.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/fullwidth.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/inc/assets/js/bootstrap.bundle.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/inc/assets/js/customizer.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/inc/assets/js/popper.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/inc/assets/js/theme-script.js" />
@@ -276,89 +687,16 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/header.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/inc/wp_bootstrap_navwalker.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-bootstrap-starter/page-templates/homepage.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#244#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-            <element signature="e#1527#6477#0#HTML" />
-            <element signature="e#3820#6404#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="1171" column="1" lean-forward="true" selection-start-line="1171" selection-start-column="1" selection-end-line="1171" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#6#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#6#50#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#6#346#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/category-blog.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-attachment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.css" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/footer.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/header.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore2.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-portfolio.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-widget.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-page.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/category-blog.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-attachment.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -366,168 +704,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="143" column="117" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="117" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="371" column="27" lean-forward="true" selection-start-line="371" selection-start-column="27" selection-end-line="371" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/inc/template-tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="e#4#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-grid-small.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#137#0#PHP" expanded="true" />
-            <element signature="e#36#42#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore4.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/css/custom.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/inc/template-tags.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore3.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-grid-small.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/full-width.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-none.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#165#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/layouts/blog-grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="37" column="78" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-blog-item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="e#6#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/sidebar-left.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/no-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="true" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" lean-forward="true" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/dev/smooth-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-builder.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-preview.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely-related-posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="244" column="68" lean-forward="true" selection-start-line="244" selection-start-column="68" selection-end-line="244" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/full-width.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-none.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/layouts/blog-grid.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/index.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content-blog-item.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-news.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-learnMore1.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/sidebar-left.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/no-sidebar.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/content.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/dev/smooth-scroll.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-builder.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/assets/js/customizer-preview.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/functions.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/inc/class-shapely-related-posts.php" />
     <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -535,40 +739,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-blog.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-blog.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-post-item.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/custom-content.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-home.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/style.css" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/finex/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-post-item.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/finex/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/template-parts/custom-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/shapely/page-templates/template-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="375" column="38" lean-forward="true" selection-start-line="375" selection-start-column="38" selection-end-line="375" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#96#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
