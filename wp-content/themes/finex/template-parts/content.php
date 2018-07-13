@@ -7,6 +7,7 @@
  * @package Shapely
  */
 
+
 $dropcaps      = get_theme_mod( 'first_letter_caps', true );
 $enable_tags   = get_theme_mod( 'tags_post_meta', true );
 $post_author   = get_theme_mod( 'post_author_area', true );
