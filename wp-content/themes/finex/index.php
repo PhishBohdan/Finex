@@ -18,6 +18,7 @@ get_header(); ?>
 		if ( 'sidebar-left' == $layout_class ) :
 			get_sidebar();
 		endif;
+
 		?>
 		<div id="primary" class="col-md-8 mb-xs-24 <?php echo esc_attr( $layout_class ); ?>">
 			<?php

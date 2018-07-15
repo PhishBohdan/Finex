@@ -1,10 +1,13 @@
 /*
-Theme Name: Finex
+Theme Name: finex
 Theme URI: 
 Author: webrockstar
-Author URI: https://finex.solutions/
-Description: Customized Shapely theme
-Version: 1.0.0
+Author URI:
+Description: It is a customized theme of Shapely. 
+
+Text Domain: shapely
+Tags: left-sidebar, right-sidebar, featured-images, post-formats, threaded-comments, theme-options, photography, portfolio, full-width-template, grid-layout
+
 
 */
 
@@ -404,25 +407,28 @@ textarea {
 --------------------------------------------------------------*/
 
 a, a:visited {
-	color: #745cf9;
+	color: #1E96EE ;
 	font-weight: 600;
 	cursor: pointer;
+	outline: none!important;
 }
 
 a:active {
-	color: #09005e;
+	color: #1E96EE ;
+	outline: none!important;
 }
 
 a:hover, a:focus {
-	color: #5234f9;
+	color: #1E96EE ;
+	outline: none!important;
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: none!important;
 }
 
 a:hover, a:active {
-	outline: 0;
+	outline: none!important;
 }
 
 a, a:visited, a:active, a:hover {
@@ -1423,7 +1429,7 @@ nav {
 .main-navigation .menu li a:hover,
 .main-navigation .menu li:hover > a,
 .main-navigation .menu > li:hover:after {
-	color: #5234f9;
+	color: #1E96EE;
 }
 
 .main-navigation .menu > li {
@@ -1434,7 +1440,7 @@ nav {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	opacity: 1;
-	color: #4c4c4c;
+	color: #1E96EE;
 }
 
 .main-navigation .menu > li:last-child {
@@ -2167,6 +2173,13 @@ select{
 	box-shadow:none;
 	border-radius: 0px !important;
 	border-bottom:solid 1px #000  !important;
+	height:50px;
+	font-weight: 500;
+	margin-bottom: 24px;
+	padding-left: 20px;
+}
+select:focus{
+	outline: none;
 }
 
 textarea {
@@ -2221,7 +2234,7 @@ input.transparent:-ms-input-placeholder, button.transparent:-ms-input-placeholde
 input[type="submit"],
 button[type="submit"] {
 	background: #745cf9;
-	border-radius: 0 !important;
+	/*border-radius: 0 !important;*/
 	border: 2px solid #745cf9;
 	color: #fff;
 	font-size: 11px;

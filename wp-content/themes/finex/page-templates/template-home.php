@@ -50,7 +50,7 @@
                         banking transformation programs while working for the largest global banks. Our mission is
                         to provide financial institutions with market-leading digital banking solutions.
                     </p>
-                    <a href="#" class="btn btn-white">See How Finex Can Work For You</a>
+                    <a href="#" class="btn btn-white download_Brochures">See How Finex Can Work For You</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
                     </div>
                     <div class="solutions-item-actions text-center">
                         <div>
-                            <a href="#" class="btn btn-white">Learn More</a>
+                            <a href="#" class="btn btn-white request_demo">Learn More</a>
                         </div>
                         <div>
                             <a href="#" class="btn btn-blue">Request a Live</a>

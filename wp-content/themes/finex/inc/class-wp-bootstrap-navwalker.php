@@ -95,7 +95,6 @@ class Wp_Bootstrap_Navwalker extends Walker_Nav_Menu {
 			}
 
 			$atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args );
-
 			$attributes = '';
 			foreach ( $atts as $attr => $value ) {
 				if ( ! empty( $value ) ) {
@@ -116,7 +115,7 @@ class Wp_Bootstrap_Navwalker extends Walker_Nav_Menu {
 			if ( ! empty( $item->attr_title ) ) {
 				$item_output .= '<a' . $attributes . '><span class="glyphicon ' . esc_attr( $item->attr_title ) . '"></span>&nbsp;';
 			} else {
-				$item_output .= '<a' . $attributes . '>';
+				$item_output .= '<a' . $attributes . '><span class="menu_i_outer"><span class="menu_i_inner">';
 			}
 
 			$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;

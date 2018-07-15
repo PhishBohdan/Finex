@@ -66,11 +66,11 @@ if ( ! function_exists( 'shapely_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
-		// This theme uses wp_nav_menu() in one location.
+//		 This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'primary'     => esc_html__( 'Primary', 'shapely' ),
-				'social-menu' => esc_html__( 'Social Menu', 'shapely' ),
+				'primary'     => esc_html__( 'Primary', 'finex' ),
+				'social-menu' => esc_html__( 'Social Menu', 'finex' ),
 			)
 		);
 

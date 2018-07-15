@@ -45,30 +45,22 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 		<div class="nav-container">
 			<nav <?php echo $style; ?> id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
-					<div class="flex-row">
+					<div class="navbar-cont">
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+						<div class="module widget-handle mobile-toggle left visible-sm visible-xs">
 							<i class="fa fa-bars"></i>
 						</div>
-						<div class="module-group right">
+						<div class="module-group left">
 							<div class="module left">
 								<?php shapely_header_menu(); ?>
 							</div>
 							<!--end of menu module-->
-							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
-								<div class="search">
-									<i class="fa fa-search"></i>
-									<span class="title"><?php esc_html_e( 'Site Search', 'shapely' ); ?></span>
-								</div>
-								<div class="function">
-									<?php
-									get_search_form();
-									?>
-								</div>
-							</div>
 						</div>
+                        <div class="module-group right">
+                            <a href="#" class="btn btn-blue">Contact Us</a>
+                        </div>
 						<!--end of module group-->
 					</div>
 				</div>
