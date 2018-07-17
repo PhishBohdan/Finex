@@ -32,9 +32,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
-            <h3 class="learn-title-1">Functionality snapshot</h3>
+            <h4 class="learn-title-1">Functionality snapshot</h4>
             <div class="row">
                 <div class="col-md-6">
                     <div class="learn-item">
@@ -83,11 +83,11 @@
         </div>
 
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
-            <h3 class="learn-title-1">A portfolio of advanced capabilities, providing flexibility and tailored services:</h3>
+            <h4 class="learn-title-1">A portfolio of advanced capabilities, providing flexibility and tailored services:</h4>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-sm hidden-xs">
                     <div class="">
                         <img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/iwatch2.png">
                     </div>
@@ -111,11 +111,16 @@
                     </div>
 
                 </div>
+                <div class="col-md-4 visible-sm visible-xs">
+                    <div class="">
+                        <img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/iwatch2.png">
+                    </div>
+                </div>
             </div>
         </div>
 
     </section>
-    <section>
+    <section class="learn_more">
         <div class="actions learn_actions">
             <div class="actions text-center">
                 <a href="#" class="btn btn-white">Request a Live</a>

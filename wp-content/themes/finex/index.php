@@ -37,7 +37,6 @@ get_header(); ?>
 				$layout_type = str_replace( '_', '-', $layout_type );
 
 				get_template_part( 'template-parts/layouts/blog', $layout_type );
-                var_dump($layout_type);
 				shapely_pagination();
 
 			else :

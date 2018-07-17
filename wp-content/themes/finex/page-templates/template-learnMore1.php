@@ -31,12 +31,12 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn_more">
         <div class="bg-blue">
             <div class="container">
                 <h3 class="main-title-3">Excellence Digital Banking packages</h3>
                 <div class="row ">
-                    <div class="col-md-6">
+                    <div class="col-md-6 hidden-xs hidden-sm">
                         <img class="digital_bank" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/digital_bank.png">
                     </div>
                     <div class="col-md-6">
@@ -51,11 +51,14 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-md-6 visible-xs visible-sm">
+                        <img class="digital_bank" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/digital_bank.png">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
             <h3 class="learn-title-1">Functionality snapshot</h3>
             <div class="row">
@@ -105,14 +108,14 @@
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-sm hidden-xs">
                     <img class="digital_bank" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/learn1-1.png">
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="">
+    <section class="learn_more">
+        <div class="container" id="learn_more_cont">
             <div class="row">
                 <div class="col-md-7">
                     <img class="deposits_img" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/learn1-2.png">
@@ -152,10 +155,13 @@
                     </div>
 
                 </div>
+                <div class="col-md-12 visible-sm visible-xs">
+                    <img class="deposits_img" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/iphone2.png">
+                </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -214,15 +220,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-xs hidden-sm">
                     <img class="digital_bank" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/learn1-3.png">
                 </div>
             </div>
-            <div class="actions learn_actions">
-                <div class="actions text-center">
-                    <a href="#" class="btn btn-white">Request a Live</a>
-                    <a href="#" class="btn btn-white">Download Brochure</a>
-                </div>
+
+        </div>
+    </section>
+    <section class="learn_more">
+        <div class="actions learn_actions">
+            <div class="actions text-center">
+                <a href="#" class="btn btn-white">Request a Live</a>
+                <a href="#" class="btn btn-white">Download Brochure</a>
             </div>
         </div>
     </section>

@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -67,10 +67,10 @@
         </div>
 
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 hidden-xs hidden-sm">
                     <img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bar_phone.png">
                 </div>
                 <div class="col-md-6">
@@ -98,12 +98,14 @@
                     </div>
 
                 </div>
-
+                <div class="col-md-6 visible-xs visible-sm">
+                    <img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bar_phone.png">
+                </div>
             </div>
         </div>
 
     </section>
-    <section>
+    <section class="learn_more">
         <div class="container">
             <div class="row">
 
@@ -148,7 +150,7 @@
 
     </section>
 
-    <section>
+    <section class="learn_more">
         <div class="actions learn_actions">
             <div class="actions text-center">
                 <a href="#" class="btn btn-white">Request a Live</a>

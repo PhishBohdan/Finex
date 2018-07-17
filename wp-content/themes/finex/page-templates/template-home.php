@@ -11,6 +11,7 @@
 <div class="header-img hidden-sm hidden-xs">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/dark_bg.png">
 </div>
+
 <section id="become">
     <div class="container">
         <h1 class="main-title bold">Become the leader in <span class="dig_bank">digital banking</span></h1>
@@ -35,6 +36,9 @@
         <a href="#about">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/scroll_icon.png">
         </a>
+    </div>
+    <div class="header-hor-img visible-sm visible-xs">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/dark_bg_mb.png">
     </div>
 </section>
 <section id="about">
@@ -109,10 +113,10 @@
     </div>
     <div class="container">
         <div class="actions text-center">
-            <a href="#" class="btn btn-white">Request a Live</a>
+            <a href="#" class="btn btn-blue">Request a Live</a>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-sm hidden-xs">
                 <div class="redefine-img">
                     <img class="iphone-img" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/iphone.png">
                 </div>
@@ -142,7 +146,11 @@
                         helps banks to become market leaders in digital banking.
                     </p>
                 </div>
-
+                <div class="col-md-6 visible-sm visible-xs">
+                    <div class="redefine-img text-center">
+                        <img class="iphone-img" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/iphone.png">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="actions text-center">
@@ -258,7 +266,7 @@
 <section id="blog_section">
     <div class="container">
         <h1 class="text-center main-title-2">Blog</h1>
-        <div id="posts">
+        <div id="posts" class="row">
             <?php
             global $post;
             $args = array('posts_per_page' => 4, 'category_name' => 'blog');
@@ -281,12 +289,13 @@
                             src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/blue_ques.png"></a>
             </div>
         </div>
+        <div class="clearfix"></div>
     </div>
 </section>
 <section id="news">
     <div class="container">
         <h1 class="text-center main-title-2">News</h1>
-        <div id="posts">
+        <div id="posts" class="row">
             <?php
             global $post;
             $args = array('posts_per_page' => 4, 'category_name' => 'news');
@@ -309,6 +318,7 @@
         </div>
     </div>
 </section>
+
 <section id="contact">
     <div class="contact-bg hidden-sm hidden-xs">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/contact_bg.png">
@@ -316,13 +326,16 @@
     <div class="container">
         <h1 class="main-title-2 text-center">Contact Us</h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 contact-form-cont">
+                <p class="contact-label">
+                    Please fill in the details and one of our experts will contact you shortly
+                </p>
                 <div class="contact-form">
                     <?php echo do_shortcode("[contact-form-7 id=\"42\" title=\"Contact form(Home page)\"]") ?>
                 </div>
             </div>
 
-            <div class="col-md-4 col-md-offset-2 contact-address">
+            <div class="col-md-4 col-md-offset-2 contact-address hidden-xs hidden-sm">
                 <div class="address-item">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/land_mark.png">
                     <div>
@@ -363,7 +376,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 visible-sm visible-xs">
+                    <div class="ques-marks">
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
                     <div class="text-center">
                         <a href="#"><img
                                     src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/wh_logo_finex.png"></a>
@@ -373,7 +396,7 @@
                     </p>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-sm hidden-xs">
                     <div class="ques-marks">
                         <a href="#"><img
                                     src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>

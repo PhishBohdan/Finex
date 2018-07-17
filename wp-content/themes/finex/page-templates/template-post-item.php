@@ -3,9 +3,10 @@
 Template Name: Post Item
 Template Post Type: post
 */
+set_query_var('header_param', 'hidden');
 get_header(); ?>
     <div class="row">
-        <div id="primary" class="col-md-8 mb-xs-24 no-sidebar">
+        <div id="primary" class="no-sidebar">
             <?php
             while ( have_posts() ) :
                 the_post();

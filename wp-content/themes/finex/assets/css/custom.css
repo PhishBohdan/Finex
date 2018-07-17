@@ -1,7 +1,17 @@
 body {
   color: #222; }
 
+#content {
+  margin-top: -80px; }
+
+#masthead {
+  position: relative;
+  z-index: 999; }
+
 /*custom Elements*/
+.learn_actions .btn {
+  width: 210px; }
+
 .pum-container {
   padding-top: 80px !important;
   padding-bottom: 30px !important; }
@@ -18,6 +28,9 @@ body {
 
 section:focus {
   outline: none; }
+
+button:focus {
+  outline: 0; }
 
 .btn-white {
   border: solid 1px #222;
@@ -72,13 +85,14 @@ section:focus {
     .bg-blue-50 .blue-cont .blue-item .num {
       width: 50px;
       float: left;
-      font-size: 3em; }
+      font-size: 3em;
+      margin-top: 5px; }
     .bg-blue-50 .blue-cont .blue-item .learn-item {
       margin-top: 12px;
       float: left;
       width: calc(100% - 50px);
       max-width: none; }
-  .bg-blue-50 h3 {
+  .bg-blue-50 h4 {
     color: #fff; }
   .bg-blue-50 img.digital_bank {
     width: 100%;
@@ -97,6 +111,9 @@ section:focus {
 .main-navigation {
   background: transparent;
   border: none; }
+  .main-navigation .nav-open .nav_menus {
+    width: 100%;
+    background: #fff; }
 
 .main-navigation.fixed {
   background: #fff;
@@ -145,16 +162,14 @@ section:focus {
 .learn-pad-2 {
   padding-top: 80px; }
 
-.learn_actions {
-  margin: 60px auto; }
-
 .learn-item {
   margin-bottom: 50px;
   max-width: 360px; }
   .learn-item .learn-item-title {
     font-weight: 500;
-    font-size: 1.1em;
-    margin-bottom: 12px; }
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    line-height: 1.2em; }
   .learn-item .learn-item-body {
     line-height: 1.5em; }
 
@@ -172,7 +187,8 @@ section:focus {
     margin-top: 15%;
     margin-bottom: 50px; }
     #become h1 span.dig_bank {
-      color: #fff; }
+      color: #fff;
+      font-weight: 600; }
   #become .mac-become img {
     margin-right: -40px; }
   #become .finex-prg p {
@@ -197,16 +213,18 @@ section:focus {
     #about .finex-prg-border .author_name {
       margin-bottom: 10px; }
 
-#redefine .redefine-img img.iphone-img {
-  max-width: 350px; }
-#redefine .padding-cont .finex-prg {
-  padding-right: 50px; }
-#redefine .padding-cont .redefine-img {
-  margin-right: -90px; }
-  #redefine .padding-cont .redefine-img img {
-    max-width: 105%; }
-#redefine .actions {
-  margin: 60px auto; }
+#redefine {
+  padding-top: 210px; }
+  #redefine .redefine-img img.iphone-img {
+    max-width: 350px; }
+  #redefine .padding-cont .finex-prg {
+    padding-right: 50px; }
+  #redefine .padding-cont .redefine-img {
+    margin-right: -90px; }
+    #redefine .padding-cont .redefine-img img {
+      max-width: 105%; }
+  #redefine .actions {
+    margin: 60px auto; }
 
 #solutions .solutions-header {
   padding: 20px;
@@ -217,7 +235,7 @@ section:focus {
     color: #fff;
     margin-bottom: 0px; }
 #solutions .solutions-item {
-  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 7px 12px -3px rgba(0, 0, 0, 0.3);
   margin: 0 30px;
   margin-bottom: 50px; }
   #solutions .solutions-item .solutions-item-header {
@@ -231,8 +249,14 @@ section:focus {
       height: 44px;
       margin-right: 5px; }
   #solutions .solutions-item .solutions-item-body {
+    overflow: hidden;
     height: 15em;
     padding: 25px 25px 10px; }
+  #solutions .solutions-item .btn {
+    width: 155px; }
+
+#blog_section, #news {
+  background: #fafafa; }
 
 #contact {
   position: relative;
@@ -243,6 +267,8 @@ section:focus {
     width: 100%; }
     #contact .contact-bg img {
       width: 100%; }
+  #contact p.contact-label {
+    font-size: 14px; }
   #contact .contact-address {
     margin-top: 15vh; }
   #contact .mg-top-40 {
@@ -296,7 +322,7 @@ footer.footer {
 /*become section*/
 /* blog and news start*/
 #posts {
-  height: calc(100vh - 400px); }
+  min-height: calc(100vh - 400px); }
   #posts article {
     box-shadow: 1px 7px 12px -3px rgba(0, 0, 0, 0.3);
     margin: 0 15px; }
@@ -304,11 +330,14 @@ footer.footer {
       height: 8em;
       overflow: hidden;
       padding: 15px;
-      font-size: 16px; }
+      font-size: 16px;
+      background: #fff; }
       #posts article .post-content .c-post-date {
         color: #8a8a8a;
         font-size: 14px;
         margin-bottom: 13px; }
+    #posts article img.wp-post-image {
+      width: 100%; }
   #posts .c-post-header {
     position: relative; }
     #posts .c-post-header .post-header-cont {
@@ -336,19 +365,46 @@ footer.footer {
             background: #fff !important; }
 
 /* blog and news end*/
+/* Post item page start*/
+article .go_home {
+  margin-top: 80px; }
+  article .go_home img {
+    width: 18px !important; }
+article .entry-content .entry-meta {
+  padding: 30px 0px 15px; }
+article .post_title {
+  margin-top: 25vh; }
+  article .post_title h2 {
+    color: #fff; }
+article .post-content p {
+  line-height: 1.6em; }
+
+/* Post item page end*/
 /*responsive css start*/
 @media (max-width: 768px) {
   #solutions .solutions-item .solutions-item-body {
     height: auto; } }
 @media (min-width: 768px) {
   .padding-cont {
-    padding-left: calc(50% - 375px); } }
+    padding-left: calc(50% - 375px);
+    padding-right: calc(50% - 375px); } }
 @media (min-width: 992px) {
   .padding-cont {
-    padding-left: calc(50% - 485px); } }
+    padding-left: calc(50% - 485px);
+    padding-right: 0; } }
 @media (min-width: 1200px) {
   .padding-cont {
-    padding-left: calc(50% - 585px); } }
+    padding-left: calc(50% - 585px);
+    padding-right: 0; } }
+@media (min-width: 1440px) {
+  #contact .contact-form {
+    margin-bottom: 10vh; }
+  #contact .contact-address {
+    margin-top: 33vh; }
+  #contact div.footer {
+    margin-bottom: 25px; }
+    #contact div.footer .footer-border {
+      margin-bottom: 25px; } }
 @media all and (min-width: 1681px) {
   .header-img {
     width: 64.5%; }
@@ -362,15 +418,177 @@ footer.footer {
     body .main-title {
       font-size: 65px; }
 
-  #about {
-    height: 80vh; }
-    #about .main-title-2 {
-      margin-bottom: 80px; }
-    #about .finex-prg-border {
-      margin-left: 80px; }
-    #about .finex-prg {
-      margin-right: 80px; }
+  #about .main-title-2 {
+    margin-bottom: 80px; }
+  #about .finex-prg-border {
+    margin-left: 80px; }
+  #about .finex-prg {
+    margin-right: 80px; }
 
-  .site-container {
-    padding: 0px 200px; } }
+  #contact .contact-form {
+    margin-bottom: 170px; }
+  #contact .contact-address {
+    margin-top: 33vh; }
+  #contact div.footer {
+    margin-bottom: 40px; }
+    #contact div.footer .footer-border {
+      margin-bottom: 40px; } }
+@media all and (min-width: 993px) {
+  #learn_more_cont {
+    width: 100%; } }
+@media all and (max-width: 992px) {
+  h1 {
+    font-size: 40px; }
+
+  #become {
+    padding-bottom: 30px; }
+    #become .mac-become img {
+      margin-right: 0px; }
+    #become h1 span.dig_bank {
+      color: #222; }
+    #become .header-hor-img {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      z-index: -1; }
+      #become .header-hor-img img {
+        width: 100%; }
+
+  #about .finex-prg-border {
+    color: #222;
+    margin-top: 50px;
+    border: solid 1px #16324c; }
+
+  #redefine .redefine-img img.iphone-img {
+    max-width: 280px; }
+  #redefine .padding-cont .finex-prg {
+    padding-right: 0; }
+  #redefine .padding-cont .redefine-img {
+    margin-right: 0px; }
+    #redefine .padding-cont .redefine-img img {
+      max-width: 100%; }
+
+  #solutions .solutions-item {
+    margin: 35px auto; }
+
+  #contact {
+    padding-bottom: 0px; }
+
+  .footer {
+    background: url("../images/footer_bg.png") no-repeat top center;
+    background-size: cover;
+    padding: 72px 0px; }
+    .footer .footer-border {
+      border: 0; }
+    .footer .ques-marks {
+      text-align: center;
+      max-width: 500px;
+      margin: 25px auto !important;
+      padding: 25px 0px !important;
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff; }
+      .footer .ques-marks a:last-child {
+        margin-right: 0px !important; }
+    .footer .address-item {
+      width: 210px;
+      margin: 0 auto; }
+      .footer .address-item:last-child {
+        margin-bottom: 15px; }
+
+  #posts article {
+    margin: 30px 15px; }
+    #posts article img.wp-post-image {
+      min-height: 165px; }
+  #posts .c-post-header {
+    position: relative; }
+    #posts .c-post-header .post-header-cont {
+      position: absolute;
+      bottom: 0;
+      padding: 0 15px;
+      width: 100%; }
+      #posts .c-post-header .post-header-cont .c-post-title {
+        width: 100%; }
+      #posts .c-post-header .post-header-cont .read_more {
+        float: left; }
+        #posts .c-post-header .post-header-cont .read_more a {
+          position: absolute;
+          right: 15px;
+          bottom: auto;
+          top: -50px;
+          width: 120px !important;
+          padding: 0;
+          font-size: 10px;
+          margin-bottom: 0;
+          color: #1E96EE !important; }
+          #posts .c-post-header .post-header-cont .read_more a:hover {
+            color: #1E96EE !important;
+            background: #fff !important; }
+
+  .learn-item {
+    max-width: 100%;
+    margin-bottom: 20px; }
+    .learn-item .learn-item-title {
+      font-size: 1.2em; }
+    .learn-item .blue-learn-body {
+      margin-left: -35px; }
+
+  .bg-blue-50 .blue-cont .blue-item .num {
+    width: 35px; }
+
+  .bg-blue img.digital_bank {
+    margin-left: 0px; }
+
+  #learn_first_section {
+    padding-bottom: 30px; }
+
+  .learn_more {
+    padding: 20px 0px; }
+    .learn_more .learn-pad-1, .learn_more .learn-pad-2 {
+      padding-top: 0; }
+    .learn_more .deposits_img {
+      margin-bottom: 30px; }
+    .learn_more .bg-blue-50 {
+      margin-left: -50%; }
+      .learn_more .bg-blue-50 .blue-cont {
+        margin-left: 24%; }
+    .learn_more img {
+      margin: 0 auto;
+      display: block; } }
+@media (min-width: 993px) and (max-width: 1279px) {
+  #contact {
+    padding-bottom: 0; }
+    #contact .contact-address {
+      display: none; }
+    #contact .contact-form-cont {
+      float: none;
+      margin: 0 auto; }
+    #contact .contact-bg {
+      display: none; }
+    #contact div.footer {
+      background: url(../images/footer_bg.png) no-repeat top center;
+      background-size: cover;
+      padding: 20px 0px; }
+      #contact div.footer .footer-border {
+        border: 0; } }
+@media (min-width: 1280px) and (max-width: 1440px) {
+  #contact .contact-form {
+    margin-bottom: 10vh; }
+  #contact .contact-address {
+    margin-top: 30vh; } }
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 32px; }
+
+  #become .mac-become img {
+    margin-right: 0px; }
+  #become h1 span.dig_bank {
+    color: #222; } }
+@media (min-width: 992px) and (max-width: 1200px) {
+  #become .finex-prg p {
+    max-width: 350px; }
+
+  h1 {
+    font-size: 48px; } }
 /*responsive css-end*/
+#blog_section #posts, #news #posts {
+  min-height: auto; }

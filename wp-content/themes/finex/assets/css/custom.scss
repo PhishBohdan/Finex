@@ -1,9 +1,19 @@
 body {
   color: #222;
 }
-
+#content{
+  margin-top: -80px;
+}
+#masthead{
+  position: relative;
+  z-index: 999;
+}
 /*custom Elements*/
-
+.learn_actions{
+  .btn{
+    width:210px;
+  }
+}
 .pum-container{
   padding-top: 80px !important;
   padding-bottom: 30px !important;
@@ -26,7 +36,9 @@ body {
 section:focus{
   outline: none;
 }
-
+button:focus{
+  outline: 0;
+}
 .btn-white {
   border: solid 1px #222;
   color: #222 !important;
@@ -90,6 +102,7 @@ section:focus{
         width: 50px;
         float: left;
         font-size: 3em;
+        margin-top:5px;
       }
       .learn-item {
         margin-top: 12px;
@@ -99,7 +112,7 @@ section:focus{
       }
     }
   }
-  h3 {
+  h4 {
     color: #fff;
   }
   img.digital_bank {
@@ -124,6 +137,12 @@ section:focus{
 .main-navigation {
   background: transparent;
   border: none;
+  .nav-open{
+    .nav_menus{
+      width:100%;
+      background: #fff;
+    }
+  }
 }
 
 .main-navigation.fixed {
@@ -185,17 +204,15 @@ section:focus{
   padding-top: 80px;
 }
 
-.learn_actions {
-  margin: 60px auto
-}
 
 .learn-item {
   margin-bottom: 50px;
   max-width: 360px;
   .learn-item-title {
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 12px;
+    line-height: 1.2em;
   }
   .learn-item-body {
     line-height: 1.5em;
@@ -220,6 +237,7 @@ section:focus{
     margin-bottom: 50px;
     span.dig_bank {
       color: #fff;
+      font-weight: 600;
     }
   }
   .mac-become {
@@ -260,6 +278,7 @@ section:focus{
 }
 
 #redefine {
+  padding-top:210px;
   .redefine-img {
     img.iphone-img {
       max-width: 350px;
@@ -294,7 +313,7 @@ section:focus{
     }
   }
   .solutions-item {
-    box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 7px 12px -3px rgba(0, 0, 0, 0.3);
     margin: 0 30px;
     margin-bottom: 50px;
     .solutions-item-header {
@@ -310,12 +329,18 @@ section:focus{
       }
     }
     .solutions-item-body {
+      overflow: hidden;
       height: 15em;
       padding: 25px 25px 10px;
     }
+    .btn{
+      width:155px;
+    }
   }
 }
-
+#blog_section, #news{
+  background:#fafafa;
+}
 #contact {
   position: relative;
   padding-bottom: 15px;
@@ -326,6 +351,9 @@ section:focus{
     img {
       width: 100%;
     }
+  }
+  p.contact-label{
+    font-size: 14px;
   }
   .contact-address {
     margin-top: 15vh;
@@ -400,20 +428,25 @@ footer.footer {
 
 /* blog and news start*/
 #posts {
-  height:calc(100vh - 400px);
+  min-height:calc(100vh - 400px);
   article {
     box-shadow: 1px 7px 12px -3px rgba(0, 0, 0, 0.3);
     margin:0 15px;
+
     .post-content{
       height:8em;
       overflow: hidden;
       padding:15px;
       font-size: 16px;
+      background: #fff;
       .c-post-date{
         color: #8a8a8a;
         font-size:14px;
         margin-bottom:13px;
       }
+    }
+    img.wp-post-image{
+      width:100%;
     }
   }
 
@@ -452,6 +485,35 @@ footer.footer {
 }
 
 /* blog and news end*/
+
+/* Post item page start*/
+article{
+  .go_home{
+    margin-top:80px;
+    img{
+      width: 18px !important;
+    }
+  }
+  .entry-content{
+    .entry-meta{
+      padding:30px 0px 15px;
+    }
+  }
+  .post_title{
+    margin-top:25vh;
+    h2{
+      color:#fff;
+    }
+  }
+  .post-content{
+    p{
+      line-height: 1.6em;
+    }
+  }
+}
+
+/* Post item page end*/
+
 /*responsive css start*/
 @media (max-width: 768px) {
   #solutions {
@@ -471,21 +533,41 @@ footer.footer {
 @media (min-width: 768px) {
   .padding-cont {
     padding-left: calc(50% - 375px);
+    padding-right: calc(50% - 375px);
+
   }
+
 }
 
 @media (min-width: 992px) {
   .padding-cont {
     padding-left: calc(50% - 485px);
+    padding-right:0;
   }
 }
 
 @media (min-width: 1200px) {
   .padding-cont {
     padding-left: calc(50% - 585px);
+    padding-right:0;
   }
 }
-
+@media (min-width: 1440px) {
+  #contact{
+    .contact-form{
+      margin-bottom:10vh;
+    }
+    .contact-address{
+      margin-top:33vh;
+    }
+    div.footer{
+      margin-bottom:25px;
+      .footer-border{
+        margin-bottom:25px;
+      }
+    }
+  }
+}
 @media all and (min-width: 1681px) {
   .header-img {
     width: 64.5%;
@@ -507,7 +589,7 @@ footer.footer {
     }
   }
   #about {
-    height: 80vh;
+
     .main-title-2 {
       margin-bottom: 80px;
     }
@@ -518,9 +600,258 @@ footer.footer {
       margin-right: 80px;
     }
   }
-  .site-container {
-    padding: 0px 200px;
+
+  #contact{
+    .contact-form{
+      margin-bottom:170px;
+    }
+    .contact-address{
+      margin-top:33vh;
+    }
+    div.footer{
+      margin-bottom:40px;
+      .footer-border{
+        margin-bottom:40px;
+      }
+    }
   }
 }
+@media all and (min-width: 993px) {
+  #learn_more_cont{
+    width:100%;
+  }
+}
+@media all and (max-width:992px){
 
+  h1{
+    font-size: 40px;
+  }
+  #become{
+    padding-bottom: 30px;
+    .mac-become{
+      img{
+        margin-right:0px;
+      }
+    }
+    h1{
+      span.dig_bank{
+        color:#222;
+      }
+    }
+    .header-hor-img{
+      position: absolute;
+      bottom:0px;
+      width: 100%;
+      z-index: -1;
+      img{
+        width:100%;
+      }
+    }
+  }
+  #about{
+    .finex-prg-border{
+      color:#222;
+      margin-top:50px;
+      border: solid 1px #16324c;
+    }
+  }
+  #redefine{
+    .redefine-img img.iphone-img{
+      max-width: 280px;
+    }
+    .padding-cont{
+      .finex-prg{
+        padding-right:0;
+      }
+      .redefine-img{
+        margin-right:0px;
+        img{
+          max-width: 100%;
+        }
+
+
+      }
+    }
+  }
+  #solutions{
+    .solutions-item{
+      margin:35px auto;
+    }
+  }
+  #contact{
+    padding-bottom:0px;
+
+  }
+  .footer{
+    background: url("../images/footer_bg.png") no-repeat top center;
+    background-size: cover;
+    padding:72px 0px;
+    .footer-border{
+      border:0;
+    }
+    .ques-marks{
+      text-align: center;
+      max-width: 500px;
+
+      margin:25px auto !important;
+      padding:25px 0px !important;
+      border-top:solid 1px #fff;
+      border-bottom:solid 1px #fff;
+      a:last-child{
+        margin-right: 0px !important;
+      }
+    }
+    .address-item{
+      width:210px;
+      margin:0 auto;
+     &:last-child{
+       margin-bottom: 15px;
+     }
+    }
+  }
+  #posts {
+    article {
+      margin:30px 15px;
+      img.wp-post-image{
+        min-height: 165px;
+      }
+    }
+
+    .c-post-header{
+      position: relative;
+
+      .post-header-cont{
+        position:absolute;
+        bottom:0;
+        padding:0 15px;
+        width:100%;
+        .c-post-title{
+          width:100%;
+        }
+        .read_more{
+          float: left;
+          a{
+            position: absolute;
+            right:15px;
+            bottom:auto;
+            top:-50px;
+            width:120px !important;
+            padding:0;
+            font-size:10px;
+            margin-bottom:0;
+            color:#1E96EE!important;
+            &:hover{
+              color:#1E96EE!important;
+              background: #fff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .learn-item{
+    max-width: 100%;
+    margin-bottom: 20px;
+    .learn-item-title{
+      font-size:1.2em;
+    }
+    .blue-learn-body{
+      margin-left:-35px;
+    }
+  }
+  .bg-blue-50 .blue-cont .blue-item .num{
+    width: 35px;
+  }
+  .bg-blue img.digital_bank{
+    margin-left:0px;
+  }
+  #learn_first_section{
+    padding-bottom:30px;
+  }
+  .learn_more{
+
+    padding:20px 0px;
+    .learn-pad-1, .learn-pad-2{
+      padding-top:0;
+    }
+    .deposits_img{
+      margin-bottom:30px;
+    }
+    .bg-blue-50{
+      margin-left: -50%;
+      .blue-cont{
+        margin-left: 24%;
+      }
+    }
+    img{
+      margin:0 auto;
+      display: block;
+    }
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1279px){
+  #contact{
+    padding-bottom:0;
+    .contact-address{
+      display: none;
+    }
+    .contact-form-cont{
+      float: none;
+      margin:0 auto;
+    }
+    .contact-bg{
+      display: none;
+    }
+    div.footer{
+      .footer-border{
+        border:0;
+      }
+      background: url(../images/footer_bg.png) no-repeat top center;
+      background-size: cover;
+      padding:20px 0px;
+    }
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+    #contact{
+      .contact-form{
+        margin-bottom: 10vh;
+      }
+      .contact-address{
+        margin-top:30vh;
+      }
+    }
+}
+@media all and (max-width:768px){
+
+  h1{
+    font-size: 32px;
+  }
+  #become{
+    .mac-become{
+      img{
+        margin-right:0px;
+      }
+    }
+    h1{
+      span.dig_bank{
+        color:#222;
+      }
+    }
+  }
+}
+@media (min-width:992px) and (max-width:1200px){
+  #become .finex-prg p{
+    max-width: 350px;
+  }
+ h1{
+   font-size: 48px;
+ }
+}
 /*responsive css-end*/
+#blog_section, #news{
+  #posts{
+    min-height: auto;
+  }
+}

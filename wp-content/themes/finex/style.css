@@ -1649,13 +1649,13 @@ nav.fixed.scrolled {
 }
 
 .module.widget-handle i {
-	font-size: 14px;
+	font-size: 25px;
 	line-height: 53px;
 	opacity: 1;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
-	color: #3a52bf;
+	color: #57534b;
 }
 
 .module.widget-handle:hover i {
@@ -2003,7 +2003,7 @@ nav.fixed.scrolled {
 
 @media all and (max-width: 991px) {
 	.site-title-container {
-		width: 84%;
+		/*width: 84%;*/
 	}
 
 	.nav-bar, .nav-bar .module-group, .nav-bar .module, .nav-bar .module:not( .site-title-container ) {
@@ -2013,9 +2013,17 @@ nav.fixed.scrolled {
 	.nav-bar .module {
 		padding: 0 16px;
 	}
+	#site-navigation.main-navigation{
 
-	.nav-bar .module-group {
-		width: 100%;
+	}
+	#site-navigation .module.left {
+		padding-left: 4px;
+	}
+	.nav-bar .module-group.contact_sec{
+		width: 130px;
+		position: absolute;
+		top: 0px;
+		right: 10px;
 	}
 
 	.nav-bar .module-group .module {
@@ -2184,7 +2192,7 @@ select:focus{
 
 textarea {
 	width: 100%;
-	background: #fff;
+	background: transparent;
 	border-radius: 0;
 	padding: 16px 20px;
 	height: 150px;

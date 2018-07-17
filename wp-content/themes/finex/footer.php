@@ -37,20 +37,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 visible-sm visible-xs">
+                    <div class="ques-marks">
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
                     <div class="text-center">
-                        <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/wh_logo_finex.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/wh_logo_finex.png"></a>
                     </div>
                     <p class="text-center copyright">
                         © 2018 - FINEX. All right reserved.
                     </p>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-sm hidden-xs">
                     <div class="ques-marks">
-                        <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
-                        <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
-                        <a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
+                        <a href="#"><img
+                                    src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques_mark.png"></a>
                     </div>
                 </div>
 

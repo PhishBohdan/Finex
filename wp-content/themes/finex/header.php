@@ -24,6 +24,8 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 } else {
 	$style = '';
 }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -41,25 +43,32 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'shapely' ); ?></a>
 
-	<header id="masthead" class="site-header<?php echo get_theme_mod( 'mobile_menu_on_desktop', false ) ? ' mobile-menu' : ''; ?> navbar-fixed-top" role="banner">
+	<header id="masthead" class="site-header
+	<?php echo get_theme_mod( 'mobile_menu_on_desktop', false ) ? ' mobile-menu' : '';
+    if(isset($header_param)){
+        echo $header_param;
+    }
+	?>
+
+    " role="banner">
 		<div class="nav-container">
 			<nav <?php echo $style; ?> id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
 					<div class="navbar-cont">
+                        <div class="module widget-handle mobile-toggle left visible-sm visible-xs">
+                            <i class="fa fa-bars"></i>
+                        </div>
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
-						<div class="module widget-handle mobile-toggle left visible-sm visible-xs">
-							<i class="fa fa-bars"></i>
-						</div>
-						<div class="module-group left">
+						<div class="module-group left nav_menus">
 							<div class="module left">
 								<?php shapely_header_menu(); ?>
 							</div>
 							<!--end of menu module-->
 						</div>
-                        <div class="module-group right">
-                            <a href="#" class="btn btn-blue">Contact Us</a>
+                        <div class="module-group right contact_sec">
+                            <a href="#contact" class="btn btn-blue">Contact Us</a>
                         </div>
 						<!--end of module group-->
 					</div>

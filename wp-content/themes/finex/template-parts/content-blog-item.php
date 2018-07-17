@@ -23,14 +23,14 @@ $allowed_tags = array(
             </div>
             <div class="post-header-cont">
                 <div class="c-post-title">
-                    <p><?php echo wp_trim_words( get_the_title(), 9 ); ?></p>
+                    <p><?php echo wp_trim_words( get_the_title()); ?></p>
                 </div>
                 <div class="read_more">
                     <a href="<?php the_permalink();?>" class="btn btn-white-gray">Read More <img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/blue_ques.png"></a>
                 </div>
             </div>
         </div>
-        <div class="post-content">
+        <div class="post-content hidden-sm hidden-xs">
             <div class="c-post-date">
                 <?php
                 echo get_the_date("d.m.Y");

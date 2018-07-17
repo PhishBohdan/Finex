@@ -16,19 +16,11 @@ $post_category = get_theme_mod( 'post_category', true );
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'post-content post-grid-wide' ); ?>>
-    <header class="entry-header nolist">
+    <article-header class="entry-header nolist" id="post_item_bg">
+
         <?php
         $category = get_the_category();
-
-        if ( has_post_thumbnail() ) {
-            $layout = shapely_get_layout_class();
-            $size   = 'shapely-featured';
-
-            if ( 'full-width' == $layout ) {
-                $size = 'shapely-full';
-            }
-            $image = get_the_post_thumbnail( get_the_ID(), $size );
-
+        if ($category[0]->name == 'blog'){
             $allowed_tags = array(
                 'img'      => array(
                     'data-srcset' => true,
@@ -43,10 +35,39 @@ $post_category = get_theme_mod( 'post_category', true );
                 ),
                 'noscript' => array(),
             );
+            $image = '<img class="wp-post-image" alt="" src="' . get_template_directory_uri() . '/assets/images/news.png" />';
+        }
+        ?>
+
+        <?php if ( $post_title ) : ?>
+            <div class="parallax-window fullscreen" data-parallax="scroll" data-image-src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/news_large.png" data-ios-fix="true" data-over-scroll-fix="true" data-android-fix="true">
+                <div class="top-parallax-section">
+                    <div class="container">
+                        <div class="go_home">
+                            <a href="<?php echo home_url()?>" class="btn btn-white-gray"><img class="ques" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/ques.png"> Go</a>
+                        </div>
+                        <div class="post_title">
+                            <h2 class="post-title entry-title text-center">
+                                <?php echo wp_trim_words( get_the_title(),14);?>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php endif ?>
+        <?php
+        if ( has_post_thumbnail() ) {
+            $layout = shapely_get_layout_class();
+            $size   = 'shapely-featured';
+
+            if ( 'full-width' == $layout ) {
+                $size = 'shapely-full';
+            }
+//            $image = get_the_post_thumbnail( get_the_ID(), $size );
+
+
             ?>
-            <a href="<?php echo esc_url( get_the_permalink() ); ?>">
-                <?php echo wp_kses( $image, $allowed_tags ); ?>
-            </a>
+
 
             <?php if ( isset( $category[0] ) && $post_category ) : ?>
                 <span class="shapely-category">
@@ -58,29 +79,40 @@ $post_category = get_theme_mod( 'post_category', true );
             <?php
         }// End if().
         ?>
-    </header><!-- .entry-header -->
-    <div class="entry-content" >
-        <?php if ( $post_title ) : ?>
-            <h2 class="post-title entry-title">
-                <a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php echo wp_trim_words( get_the_title(), 9 ); ?></a>
-            </h2>
-        <?php endif ?>
+    </article-header><!-- .entry-header -->
+    <div class="container">
+        <div class="entry-content" >
 
-        <div class="entry-meta">
-            <?php
-            shapely_posted_on_no_cat();
-            ?>
-            <!-- post-meta -->
-        </div>
 
-        <?php if ( $post_author && $left_side ) : ?>
-            <div class="row">
-                <div class="col-md-3 col-xs-12 author-bio-left-side">
-                    <?php
-                    shapely_author_bio();
-                    ?>
+            <div class="entry-meta">
+                <?php
+                shapely_posted_on_no_cat();
+                ?>
+                <!-- post-meta -->
+            </div>
+
+            <?php if ( $post_author && $left_side ) : ?>
+                <div class="row">
+                    <div class="col-md-3 col-xs-12 author-bio-left-side">
+                        <?php
+                        shapely_author_bio();
+                        ?>
+                    </div>
+                    <div class="col-md-9 col-xs-12 shapely-content ">
+                        <?php
+                        the_content();
+
+                        wp_link_pages(
+                            array(
+                                'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'shapely' ),
+                                'after'  => '</div>',
+                            )
+                        );
+                        ?>
+                    </div>
                 </div>
-                <div class="col-md-9 col-xs-12 shapely-content ">
+            <?php else : ?>
+                <div class="shapely-content ">
                     <?php
                     the_content();
 
@@ -92,21 +124,8 @@ $post_category = get_theme_mod( 'post_category', true );
                     );
                     ?>
                 </div>
-            </div>
-        <?php else : ?>
-            <div class="shapely-content ">
-                <?php
-                the_content();
-
-                wp_link_pages(
-                    array(
-                        'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'shapely' ),
-                        'after'  => '</div>',
-                    )
-                );
-                ?>
-            </div>
-        <?php endif; ?>
-    </div><!-- .entry-content -->
+            <?php endif; ?>
+        </div><!-- .entry-content -->
+    </div>
 </article>
 <?php //echo $dropcaps ? 'dropcaps-content' : ''; ?>
