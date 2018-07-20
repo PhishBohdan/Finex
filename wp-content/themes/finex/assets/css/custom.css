@@ -212,6 +212,10 @@ button:focus {
         width: 60px; }
     #about .finex-prg-border .author_name {
       margin-bottom: 10px; }
+  #about .finex-prg-border {
+    margin-left: 100px; }
+  #about .finex-prg {
+    margin-right: 100px; }
 
 #redefine {
   padding-top: 210px; }
@@ -421,9 +425,9 @@ article .post-content p {
   #about .main-title-2 {
     margin-bottom: 80px; }
   #about .finex-prg-border {
-    margin-left: 80px; }
+    margin-left: 100px; }
   #about .finex-prg {
-    margin-right: 80px; }
+    margin-right: 100px; }
 
   #contact .contact-form {
     margin-bottom: 170px; }
@@ -482,7 +486,7 @@ article .post-content p {
       border: 0; }
     .footer .ques-marks {
       text-align: center;
-      max-width: 500px;
+      max-width: 350px;
       margin: 25px auto !important;
       padding: 25px 0px !important;
       border-top: solid 1px #fff;
@@ -569,7 +573,15 @@ article .post-content p {
       background-size: cover;
       padding: 20px 0px; }
       #contact div.footer .footer-border {
-        border: 0; } }
+        border: 0; }
+
+  #about {
+    padding-top: 0px; }
+    #about .main-title-2 {
+      margin-bottom: 20px; } }
+@media (min-width: 993px) and (max-width: 1101px) {
+  #become {
+    padding-bottom: 0px; } }
 @media (min-width: 1280px) and (max-width: 1440px) {
   #contact .contact-form {
     margin-bottom: 10vh; }
