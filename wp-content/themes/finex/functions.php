@@ -251,7 +251,7 @@ function shapely_scripts() {
 
 //	if ( is_page_template( 'page-templates/template-home.php' ) || is_page_template( 'page-templates/template-widget.php' ) ) {
 	if ( is_page_template( 'page-templates/template-home.php' ) || is_page_template( 'page-templates/template-post-item.php' ) ) {
-		wp_enqueue_script( 'shapely-parallax', get_template_directory_uri() . '/assets/js/parallax.min.js', array( 'jquery' ), '20160115', true );
+		wp_enqueue_script( 'shapely-parallax', get_template_directory_uri() . '/assets/js/dev/parallax.js', array( 'jquery' ), '20160115', true );
 	}
 	/**
 	 * OwlCarousel Library
