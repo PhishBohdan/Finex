@@ -88,7 +88,20 @@ button:focus{
     margin-left: -15px;
   }
 }
+#post_item_h{
+  h3{
+    text-transform: lowercase;
+    &:first-letter{
+      text-transform: uppercase;
+    }
+  }
 
+}
+.post-grid-wide{
+  p{
+    line-height: 1.4em;
+  }
+}
 .bg-blue-50 {
   background: #1E96EE;
   padding: 40px 30px 10px;

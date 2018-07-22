@@ -20,27 +20,31 @@ $post_category = get_theme_mod( 'post_category', true );
 
         <?php
         $category = get_the_category();
+        $allowed_tags = array(
+            'img'      => array(
+                'data-srcset' => true,
+                'data-src'    => true,
+                'srcset'      => true,
+                'sizes'       => true,
+                'src'         => true,
+                'class'       => true,
+                'alt'         => true,
+                'width'       => true,
+                'height'      => true,
+            ),
+            'noscript' => array(),
+        );
         if ($category[0]->name == 'blog'){
-            $allowed_tags = array(
-                'img'      => array(
-                    'data-srcset' => true,
-                    'data-src'    => true,
-                    'srcset'      => true,
-                    'sizes'       => true,
-                    'src'         => true,
-                    'class'       => true,
-                    'alt'         => true,
-                    'width'       => true,
-                    'height'      => true,
-                ),
-                'noscript' => array(),
-            );
-            $image = '<img class="wp-post-image" alt="" src="' . get_template_directory_uri() . '/assets/images/news.png" />';
+            $image = 'blog-imag.png';
+
+        }else{
+            $image = 'news_large.png';
         }
         ?>
 
         <?php if ( $post_title ) : ?>
-            <div class="parallax-window fullscreen" data-parallax="scroll" data-image-src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/news_large.png" data-ios-fix="true" data-over-scroll-fix="true" data-android-fix="true">
+            <div class="parallax-window fullscreen" data-parallax="scroll" data-image-src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/<?php echo $image?>" data-ios-fix="true"
+                 data-over-scroll-fix="true" data-android-fix="true">
                 <div class="top-parallax-section">
                     <div class="container">
                         <div class="go_home">
@@ -128,4 +132,39 @@ $post_category = get_theme_mod( 'post_category', true );
         </div><!-- .entry-content -->
     </div>
 </article>
+<div class="news_items container">
+    <div id="post_item_h">
+        <h3 class="text-center"><?php
+            if($category[0]->name === 'news'){
+                echo "Blog";
+            } elseif ($category[0]->name === 'blog'){
+                echo "News";
+            }
+        ?></h3>
+    </div>
+    <div id="posts" class="row">
+        <?php
+        global $post;
+        if($category[0]->name === 'news'){
+            $args = array('posts_per_page' => 2, 'category_name' => 'blog');
+            $lastposts = get_posts($args);
+            $image = '<img class="wp-post-image" alt="" src="' . get_template_directory_uri() . '/assets/images/blog-imag.png" />';
+        } elseif ($category[0]->name === 'blog'){
+            $args = array('posts_per_page' => 2, 'category_name' => 'news');
+            $lastposts = get_posts($args);
+            $image = '<img class="wp-post-image" alt="" src="' . get_template_directory_uri() . '/assets/images/news.png" />';
+        }
+
+
+        foreach ($lastposts as $post) :
+            setup_postdata($post); ?>
+            <?php
+            set_query_var('image', $image);
+            get_template_part('template-parts/content-blog-item');
+            ?>
+        <?php endforeach;
+        wp_reset_postdata(); ?>
+        <div class="clearfix"></div>
+    </div>
+</div>
 <?php //echo $dropcaps ? 'dropcaps-content' : ''; ?>

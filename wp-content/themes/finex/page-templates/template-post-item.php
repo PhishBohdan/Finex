@@ -5,7 +5,7 @@ Template Post Type: post
 */
 set_query_var('header_param', 'hidden');
 get_header(); ?>
-    <div class="row">
+    <div class="">
         <div id="primary" class="no-sidebar">
             <?php
             while ( have_posts() ) :
